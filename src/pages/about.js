@@ -1,17 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
+
 import Layout from "../components/layout"
+
 
 // export default () => <div>Hello world!</div>
 
-const IndexPage = () => {
+const AboutPage = () => {
   return (
     <Layout>
-      <h1>Hello</h1>
-      <h2>A am Artur</h2>
-      <p>Need a developer? <Link to='/contact'>Contact Me</Link>  </p>
+      <h1>About me</h1>
+      <h2>MarktGuru</h2>
+      <p><Link to="/contact">Want to work with me? Ritch out.</Link></p>
     </Layout>
   )
 }
 
-export default  IndexPage
+export default  AboutPage
