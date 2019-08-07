@@ -10,6 +10,14 @@ module.exports = {
     author: 'Artur Isaverdyan'
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `ftph9iowoaea`,
+        accessToken: 'rnC3H_i2m9__ReOmlNnfgVsP9KvHnbdKPtDIxilpvJ0',
+      },
+    },
     'gatsby-plugin-sass',
     {
       resolve: `gatsby-source-filesystem`,
